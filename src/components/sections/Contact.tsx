@@ -20,6 +20,7 @@ export const Contact = () => {
         import.meta.env.VITE_PUBLIC_KEY
       )
       .then((result) => {
+        console.log(result.text);
         alert("Message Sent!");
         setFormData({ name: "", email: "", message: "" });
       })
