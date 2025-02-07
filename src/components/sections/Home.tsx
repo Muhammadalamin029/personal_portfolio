@@ -13,10 +13,9 @@ const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At mollitia
-            iusto suscipit quia non necessitatibus, quo, inventore sapiente
-            dolor assumenda amet officiis, natus quas eius molestiae sed. Amet,
-            ea ad.
+            I’m a full-stack developer who loves crafting clean, scalable and
+            responsive web applications. My goal is to build solutions that
+            offer both exceptional performance and a delightful user experience.
           </p>
 
           <div className="flex justify-center space-x-4">
