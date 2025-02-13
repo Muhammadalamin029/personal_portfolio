@@ -3,18 +3,18 @@ import { RevealOnScroll } from "../RevealOnScroll";
 const Projects = () => {
   const projects = [
     {
-      name: "Digital dive",
+      name: "Shortly",
       description:
-        "Full-stack e-commerce with modern UI, secure payment integration and customizable product inventory.",
-      skills: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-      link: "#",
+        "A url shortening app that allows users to shorten long urls and track the number of clicks.",
+      skills: ["React", "TypeScript", "Tailwindcss", "Firebase"],
+      link: "https://min-short.vercel.app/",
     },
     {
       name: "Devjobs",
       description:
-        "Full-stack e-commerce with modern UI, secure payment integration and customizable product inventory.",
-      skills: ["React.js", "TypeScript", "Tailwindcss", "Firebase"],
-      link: "#",
+        "Fullstack job listing app with authentication, job posting and search functionality.",
+      skills: ["React.js", "JavaScript", "Tailwindcss", "Firebase"],
+      link: "https://dev-jobs-mu.vercel.app/",
     },
   ];
 
