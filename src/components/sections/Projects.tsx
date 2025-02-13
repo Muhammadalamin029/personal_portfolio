@@ -59,6 +59,7 @@ const Projects = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <a
+                    target="_blank"
                     href={project.link}
                     className="text-green-400 hover:text-green-300 transition-colors my-4"
                   >
