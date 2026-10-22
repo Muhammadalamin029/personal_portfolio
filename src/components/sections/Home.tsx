@@ -4,32 +4,56 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative"
+      className="min-h-screen flex items-center justify-center relative pt-16"
     >
       <RevealOnScroll>
-        <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 to-cyan-600 bg-clip-text leading-right text-transparent">
-            Hi, I'm Al-amin Musa
-          </h1>
-
-          <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer who loves crafting clean, scalable and
-            responsive web applications. My goal is to build solutions that
-            offer both exceptional performance and a delightful user experience.
+        <div className="max-w-4xl mx-auto text-center z-10 px-5">
+          <p className="text-sm md:text-base uppercase tracking-[0.24em] text-green-400 mb-6">
+            Full-stack developer · Product builder
           </p>
 
-          <div className="flex justify-center space-x-4">
+          <h1 className="text-5xl md:text-7xl font-bold mb-7 tracking-tight leading-[1.08] text-white">
+            I build web products
+            <span className="block text-green-400 mt-2">that do useful work.</span>
+          </h1>
+
+          <p className="text-gray-400 text-lg md:text-xl leading-relaxed mb-9 max-w-2xl mx-auto">
+            I'm Ameenu Musa, a developer focused on building practical digital
+            products, from polished user interfaces to the APIs and workflows
+            behind them.
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-3">
             <a
               href="#projects"
-              className="bg-green-500 text-white py-3 px-6 rounded font-medium transition-all relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+              className="bg-green-500 text-black py-3 px-6 rounded-lg font-semibold transition-colors hover:bg-green-400"
             >
-              View Projects
+              Explore selected work
             </a>
             <a
               href="#contact"
-              className="border border-green-500/50 text-green-500 py-3 px-4 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-green-500/10"
+              className="border border-white/20 text-white py-3 px-6 rounded-lg font-medium transition-colors hover:border-green-400/60 hover:text-green-300"
             >
-              Contact Me
+              Get in touch
+            </a>
+          </div>
+
+          <div className="mt-12 flex justify-center gap-6 text-sm text-gray-400">
+            <a
+              href="https://github.com/Muhammadalamin029"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              GitHub ↗
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ameenumhusah/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              LinkedIn ↗
             </a>
           </div>
         </div>
